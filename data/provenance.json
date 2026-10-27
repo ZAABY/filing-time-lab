@@ -1,0 +1,16 @@
+{
+  "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001637459.json",
+  "captured_at": "2026-10-27T05:59:32Z",
+  "capture_precision": "request-completion second; rounded from tool observation",
+  "original_bytes": 3417827,
+  "original_sha256": "8fad66c16e535f7749f19126a986a9f43a087ca2472d063fa7742106196d88ac",
+  "selected_sha256": "e5a212aed5c577c0c36aa95717267de403fb4684127a3259851a990a92f1c5a9",
+  "selection": {
+    "taxonomy": "us-gaap",
+    "concepts": [
+      "NetIncomeLoss",
+      "Assets"
+    ]
+  },
+  "warning": "Selected fixture is derived from one current archive, not a historical live capture. No completeness guarantee."
+}

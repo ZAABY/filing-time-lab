@@ -1,0 +1,52 @@
+{
+  "fixture": "data/khc-selected-facts.json",
+  "python": "3.12.15",
+  "duckdb": "2.0.0",
+  "replay_trials": 50,
+  "ingest": {
+    "snapshot_id": "65ec528f59d2be039243697af47186c3abbffc75eebab44ab3e5e5bd274ca0b2",
+    "rows_seen": 299,
+    "quarantined": 0
+  },
+  "ingest_seconds": 0.029991,
+  "fact_checksum": "b9517c0eabf7af52b6069a39cbaa772c6b4c7456dcaa08604a1128e177394991",
+  "case_study": {
+    "2018-01-01": {
+      "key": [
+        "0001637459",
+        "us-gaap",
+        "NetIncomeLoss",
+        "USD",
+        "2016-01-04",
+        "2016-12-31"
+      ],
+      "filed": "2017-02-23",
+      "value": "3632000000",
+      "fact_ids": [
+        "e5d6d526e717a471b727ce0704449d84fcbd028ba37711b28ab02de9bd795856"
+      ],
+      "accessions": [
+        "0001637459-17-000007"
+      ]
+    },
+    "2020-01-01": {
+      "key": [
+        "0001637459",
+        "us-gaap",
+        "NetIncomeLoss",
+        "USD",
+        "2016-01-04",
+        "2016-12-31"
+      ],
+      "filed": "2019-06-07",
+      "value": "3596000000",
+      "fact_ids": [
+        "b911ea5482c5f2bf8bebc84749894d94db35099f397bed993ef4a1d29b1bf377"
+      ],
+      "accessions": [
+        "0001637459-19-000049"
+      ]
+    }
+  },
+  "matching_replay_checksums": 50
+}
